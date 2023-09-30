@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-top: -20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+/* ---- Nav Bar ----*/
+    
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15;
+    padding: 15px 0;
+    margin-top: 20px;
+    align-items: center;
+    color: black;
+}
+.logo{
+    font-weight: 800;
+    font-size: 25px;
+}
+.nav-itens{
+    list-style: none;
+    display: flex;
+}
+.nav-itens>li>a{
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.form {
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.login{
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    color: #202020;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.cadastro{
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    background-color: #202020;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ---- Login/Cadastro ----*/
+
+form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    padding: 25px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 13px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #007bff;
+}
+
+p {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Botão com largura total */
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.gender-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* ---- Home ----*/
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras{
+    position: absolute;
+    bottom: -1500px;
+    right: -550px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: white;
+}
+.baleia{
+    margin-top: -75px;
+    margin-left: 125px;
+    position: absolute;
+
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    padding: 0 2%;
+}
+.texto-sobre{   
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.texto-sobre h1{
+    color: white;
+    font-size: 50px;
+}
+.texto-sobre p{
+    color: white;
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+.texto-sobre button{
+    border: 0;
+    background-color: white;
+    color: #0056b3;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body class="form"; style="background-image: url(imgs/fundo2.mp4);">
+    <form action="">
+        <h1> Crie sua conta </h1>
+
+        <hr>
+
+        <input type="text" name="nome" placeholder="Nome">
+
+        <input type="text" name="sobrenome" placeholder="Sobrenome">
+
+        <input type="email" name="email" placeholder="Email">
+
+        <input type="text" name="senha" placeholder="Senha">
+
+        <hr>
+
+        <p>Data de Nascimento:</p>
+
+        <input type="date">
+
+        <div class="gender-container">
+
+       <p>Gênero:</p>
+
+        <label for="genero-masculino">
+        <input type="radio" id="genero-masculino" name="genero" value="masculino"> Masculino
+        </label>
+
+        <label for="genero-feminino">
+        <input type="radio" id="genero-feminino" name="genero" value="feminino"> Feminino
+        </label>
+
+        <label for="genero-outro">
+            <input type="radio" id="genero-outro" name="genero" value="outro"> Outro
+            </label>
+
+        </div>
+        <hr>
+
+        <a href="login.html"><input type="button" name="cadastrar" value="Cadastre-se"></a>
+
+        <a href="login.html">Já tenho conta</a>
+    </form>
+</body>
+</html>
